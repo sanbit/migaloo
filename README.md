@@ -1,4 +1,4 @@
 rednode
 =======
 
-Redis Monitor using Node.js
+A Redis Live Monitor using Node.js
