@@ -12,6 +12,8 @@ npm install
 
 ## Edit the config file
 
+migaloo.conf:
+
 ```json
 {
   "dbpath": "",
