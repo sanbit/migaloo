@@ -2,27 +2,34 @@ Migaloo
 =======
 A Redis Live Monitor using Node.js
 
-Quick Start
-================================================================
-install the dependencies:
+## Installation
 
+Make sure you have node installed,then 
+
+```bash
 npm install
+```
 
-edit the config file: migaloo.conf
+## Edit the config file
 
+```json
 {
   "dbpath": "",
   "servers": [
     {
       "host": "127.0.0.1",
       "port": "6380"
-    },
-    {
-      .....
-    } 
+    }
   ]
 }
+```
 
-start migaloo
 
+## Startup the application
+
+```bash
 nohup node app.js > access.log 2>&1 &
+```
+
+
+## License
