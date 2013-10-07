@@ -4,11 +4,11 @@ A Redis Live Monitor using Node.js
 
 Quick Start
 ================================================================
-*install the dependencies*
+install the dependencies:
 
 npm install
 
-*edit the config file: migaloo.conf*
+edit the config file: migaloo.conf
 
 {
   "dbpath": "",
@@ -23,5 +23,6 @@ npm install
   ]
 }
 
-*start migaloo*
+start migaloo
+
 nohup node app.js > access.log 2>&1 &
