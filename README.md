@@ -1,6 +1,6 @@
 Migaloo
 =======
-A Redis Live Monitor using Node.js
+A very simple Redis Live Monitor using Node.js
 
 ## Installation
 
